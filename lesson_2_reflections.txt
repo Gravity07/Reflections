@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It will create .git file with metadata in it. It is not counted as commit, because we dont know which files we want to commit yet.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It involves both working directory and repository. It is stage between those two :). Its value is because of status command that show us commits that we had made and also files in working dir. and repository.
