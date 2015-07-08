@@ -4,3 +4,15 @@ It will create .git file with metadata in it. It is not counted as commit, becau
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It involves both working directory and repository. It is stage between those two :). Its value is because of status command that show us commits that we had made and also files in working dir. and repository.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can see by status command that you added only one file and then commit changes made only on that one file.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+They can help in testing new features, adding new experimetal things...
+
+How do the diagrams help you visualize the branch structure?
+Yea, diagrams are pictures so they help visualize :D...
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Sometimes git can merge files without interference of a user. But when there is a conflict while mergin, its up to users how they decide to continue. Conflicts are signaled by the <<<< and other signs in document.
